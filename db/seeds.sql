@@ -28,17 +28,17 @@ VALUES ("Custodial lead", 65000, 4);
 INSERT INTO role (title, salary, department_id)
 VALUES ("Marketing lead", 110000, 5);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("John", "Johnson", 1, 1);
+INSERT INTO employee (first_name, last_name, role_id, manager)
+VALUES ("John", "Johnson", 1, "Jonh Jameson");
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Steven", "Stevenson", 2, 2);
+INSERT INTO employee (first_name, last_name, role_id, manager)
+VALUES ("Steven", "Stevenson", 2, "null");
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("James", "Jameson", 3, 3);
+INSERT INTO employee (first_name, last_name, role_id, manager)
+VALUES ("James", "Jameson", 3, "null");
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("William", "Williamson", 4, 4);
+INSERT INTO employee (first_name, last_name, role_id, manager)
+VALUES ("William", "Williamson", 4, "John Jenson");
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Tom", "Thompson", 5, 5);
+INSERT INTO employee (first_name, last_name, role_id, manager)
+VALUES ("Tom", "Thompson", 5, "null");
